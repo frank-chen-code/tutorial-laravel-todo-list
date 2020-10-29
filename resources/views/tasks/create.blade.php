@@ -10,6 +10,6 @@
         </div>
     </div>
 
-    @component('component.taskForm')
+    @component('components.taskForm')
     @endcomponent
 @endsection
