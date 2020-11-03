@@ -3,10 +3,11 @@
 namespace App\Http\Traits;
 use Carbon\Carbon;
 trait TimestampsTrait{
+
     public $timestamps = true;
 
     public function getDates(){
-        return ['created_at','updated_at'];
+        return ['created_at', 'updated_at'];
     }
 
     public function getCreatedAtAttribute(){
